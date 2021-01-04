@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center; 
+}
+
+.styling{
+  font-weight: bold;
+  color:rgb(247, 131, 36)
+}
+
+
+body{
+    color:red;
+    background-color:black;
+    margin: 10%;
+}
+.addButton{
+  background: none;
+  border: 0px;
+  color:red;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  outline:none;
+}
+.editButton{
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  background: none;
+  color:lime;
+}
+.removeButton{
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  background: none;
+  color:orange;
+}
+.addButton:hover{
+  opacity:0.7;
+}
+.input_div{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2em;
+}
+  
+.input_div .input{
+  padding: 0.5rem 1rem;
+  height: 50px;
+  outline: none;
+  margin: 0.25rem;
+  border-radius: 25px;
+  width:450px;
+  
+}
+.item{
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid white;
+}
+
+.item_input{
+  background: none;
+  outline: none;
+  color: white;
+  border: none;
+  width: 350px;
+  font-size: 1.4rem;
+}
